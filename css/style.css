@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+div{
+  display: block;
+}
+
+@media only screen and (max-width: 2000px) {
+.backgroundimage
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner/banner.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+}
+/* Navbar */
+.navbar{
+  overflow: hidden;
+}
+
+.navbar-links {
+  padding-top: 40px;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    margin-right:65px;
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+a.active {
+    color: white
+}
+
+@media screen and (max-width: 1090px) {
+  .navbar a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .navbar-links {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;  }
+}
+
+
+
+/* logo */
+.logo {
+ width: 100px;
+ height: 125px;
+ float:left;
+ margin: 20px;
+}
+.block {
+  position: absolute;
+  width: 583px;
+  height: 150px;
+  background-color: rgba(146,2,36,0.8);
+  top: 50%;
+  left: 50%;
+  margin-top: -85px;
+  margin-left: -293px;
+}
+.title {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  height: 75px;
+  padding-top: 20px;
+}
+.subtitle{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  height: 75px;
+  padding-top: 10px;
+}
+
+.title2{
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color:  rgba(146,2,36,0.8);
+  margin-top: 26px;
+}
+.tekst{
+  font-size: 24px;
+  margin-top: 50px;
+  }
+.container{
+  padding: 0 30px;
+  max-width: 910px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.parallax {
+  background-image: url("../images/parralax/subbanner.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../images/parralax/subbanner2.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* footer css */
+.footer{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  margin-top: 80px
+}
+.icons{
+  float: right;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+.footer-links{
+font-size: 18px;
+font-weight: bold;
+color: white;
+margin: 0 0 10px;
+padding: 0;
+}
+p a {
+  color: white;
+}
+p {
+  color: white;
+}
+a {
+  color: white;
+}
+/* aparte css voor de tijndlijn pagina */
+
+.Ptijdlijn {
+  background-image: url("../images/parralax/parralax1.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Ptijdlijn2 {
+  background-image: url("../images/parralax/parralax2.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Bimgtijdlijn
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner/bannertijdlijn.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Btijdlijn {
+position: absolute;
+width: 583px;
+height: 150px;
+background-color: Rgb(64, 114, 108,0.8);
+top: 50%;
+left: 50%;
+margin-top: -85px;
+margin-left: -293px;
+}
+
+.groen{
+color:Rgb(64, 114, 108,0.8);
+}
+/* aparte css voor de Hobby's pagina */
+
+.Phobby {
+  background-image: url("../images/parralax/parralaxhobby.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Phobby2 {
+  background-image: url("../images/parralax/parralaxhobby2.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hbanner
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner/bannerhobby's.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Bhobby {
+position: absolute;
+width: 583px;
+height: 150px;
+background-color: Rgb(91, 91, 91,0.8);
+top: 50%;
+left: 50%;
+margin-top: -85px;
+margin-left: -293px;
+}
+
+.grijs{
+color: Rgb(91, 91, 91,0.8);
+}
+
+/* aparte css voor de Woonplaats pagina */
+
+.Pwoonplaats {
+  background-image: url("../images/parralax/parralaxwoonplaats2.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Pwoonplaats2 {
+  background-image: url("../images/parralax/parralaxwoonplaats.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Wbanner
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner/bannerwoonplaats.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Bwoonplaats {
+position: absolute;
+width: 583px;
+height: 150px;
+background-color: rgb(52, 124, 49,0.8);
+top: 50%;
+left: 50%;
+margin-top: -85px;
+margin-left: -293px;
+}
+
+.bruin{
+color: rgb(52, 124, 49,0.8);
+}
+/* aparte css voor de contact pagina */
+
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=submit] {
+  background-color: rgb(255,222,173,0.8);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 833px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.Cbanner
+{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner/bannercontact.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Bcontact {
+position: absolute;
+width: 583px;
+height: 150px;
+background-color: rgb(255,222,173,0.8);
+top: 50%;
+left: 50%;
+margin-top: -85px;
+margin-left: -293px;
+}
+
+.beige{
+color: rgb(255,222,173,0.8);
+}
